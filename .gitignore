@@ -1,0 +1,11 @@
+# Code intelligence
+.codegraph/
+
+# AI workflow runtime state (not for publishing)
+.omo/run-continuation/
+.omo/boulder.json
+.omo/start-work/
+
+# OS
+Thumbs.db
+Desktop.ini

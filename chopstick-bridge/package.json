@@ -1,0 +1,36 @@
+{
+  "name": "chopstick-bridge",
+  "version": "1.0.0",
+  "description": "Kuai-Zi-Qiao (Chopstick Bridge) - WeChat + Douyin mini-game built with Cocos Creator 3.8.8",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "smoke:playwright": "node scripts/smoke-playwright.mjs",
+    "preview": "node scripts/preview.mjs"
+  },
+  "keywords": [
+    "cocos-creator",
+    "mini-game",
+    "wechat",
+    "douyin"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "uuid": "1bfef5ce-1bad-437e-be58-02cb425a2fb2",
+  "creator": {
+    "version": "3.8.8"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "playwright": "^1.65.0",
+    "pngjs": "^7.0.0",
+    "tsx": "^4.23.15",
+    "vitest": "^5.1.0"
+  }
+}
